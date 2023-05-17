@@ -45,6 +45,3 @@ To change the default `path_location`, open the `update_wtc-lms.py` file and mod
 
 ## Contributions
 Contributions to the wtc-lms Updater are welcome! If you find any bugs, have feature requests, or want to contribute enhancements, please submit an issue or create a pull request in the GitHub repository.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/your-username/wtc-lms-updater/blob/main/LICENSE) file for details.
