@@ -16,11 +16,7 @@ The wtc-lms Updater is a Python script designed to check the version of the wtc-
 - Internet connection to download the latest version of wtc-lms.
 
 ## Installation
-1. Clone the repository to your local machine:
-Git clone the https link on the code button
-```bash
-git clone URL
-```
+1. Clone the repository to your local machine
 
 
 ## Usage
