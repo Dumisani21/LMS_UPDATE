@@ -20,7 +20,7 @@ The wtc-lms Updater is a Python script designed to check the version of the wtc-
 
 
 ## Usage
-1. Open a terminal or command prompt.
+1. Open a terminal.
 
 2. Change to the project directory:
 ```bash
