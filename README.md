@@ -1,7 +1,7 @@
 # wtc-lms Updater
 
 ## Introduction
-The wtc-lms Updater is a Python script designed to check the version of the wtc-lms program and update it if necessary. This script automates the process of checking for updates and ensures that the wtc-lms program is always up to date.
+The wtc-lms Updater is a Python script designed to check the version of the wtc-lms program and update it if necessary. This script automates the process of checking for updates and ensures that the wtc-lms program is always up to date and also this is only for linux.
 
 ## Features
 - Checks the current version of wtc-lms installed on the system.
@@ -17,8 +17,9 @@ The wtc-lms Updater is a Python script designed to check the version of the wtc-
 
 ## Installation
 1. Clone the repository to your local machine:
+Git clone the https link on the code button
 ```bash
-https://github.com/Dumisani21/LMS_UPDATE.git
+git clone URL
 ```
 
 
