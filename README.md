@@ -38,6 +38,3 @@ python update_wtc-lms.py
 The script accepts an optional argument `path_location` which allows you to specify the location for the downloaded wtc-lms program. By default, it is set to "Downloads/".
 
 To change the default `path_location`, open the `update_wtc-lms.py` file and modify the `path_location` parameter in the `update_lms()` function.
-
-## Contributions
-Contributions to the wtc-lms Updater are welcome! If you find any bugs, have feature requests, or want to contribute enhancements, please submit an issue or create a pull request in the GitHub repository.
