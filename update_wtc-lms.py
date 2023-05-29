@@ -23,10 +23,7 @@ def update_lms(path_location="Downloads/") -> bool:
 
     if not downloaded_file:
         print("It seems like you don't have wtc-lms downloaded yet!")
-        return False
-
-    if not installed_file:
-        print("It seems like you don't have wtc-lms installed yet!")
+        print("Please download wtc-lms first and put it in the downloads folder, then run this script again")
         return False
 
     check_current_lms = check_version().strip()
@@ -54,6 +51,10 @@ def update_lms(path_location="Downloads/") -> bool:
                             continue
                     selection = input("Enter selection: ")
                 output = output[int(selection) - 1]
+            elif len(output) == 0:
+                # this means that the file is not in the /usr/bin/ folder
+                # so we will just provide the path to the file
+                output = "/usr/bin/"
             else:
                 output = output[0]
             print(f"Is this your primary location: {output} (y)es/(n)o?")
