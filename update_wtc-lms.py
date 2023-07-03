@@ -99,7 +99,7 @@ def update_lms(path_location="Downloads/") -> bool:
                     copy.pop(-1)
                     copy = "/".join(copy)
                     if os.path.exists(f"{path}wtc-lms"):
-                        os.system(f"cp {path}wtc-lms {copy}")
+                        os.system(f"sudo cp {path}wtc-lms {copy}")
                         current_version = check_version()[0].strip()
                         check_current = subprocess.check_output("wtc-lms --version", shell=True, text=True).strip()
             
