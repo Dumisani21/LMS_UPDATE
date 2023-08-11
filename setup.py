@@ -1,7 +1,7 @@
-import os, subprocess
+import os, getpass
 
 def check_path(path: str) -> tuple:
-    path = os.path.join("/home", os.getlogin(), path)
+    path = os.path.join("/home", getpass.getuser(), path)
     x = os.path.exists(path)
     return x, path
 
