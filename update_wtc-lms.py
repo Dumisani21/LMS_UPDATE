@@ -1,6 +1,6 @@
 import os
 import subprocess
-
+import getpass
 
 
 def check_version() -> tuple:
@@ -19,7 +19,7 @@ def is_int(value) -> bool:
         return False
     
 def first_install(path_location="Downloads/"):
-    user = os.getlogin()
+    user = getpass.getuser()
     path = os.path.join("/home", user, path_location)
     downloaded_file = os.path.exists(os.path.join(path, "wtc-lms"))
     installation_path = "/usr/bin/"
@@ -49,7 +49,7 @@ def first_install(path_location="Downloads/"):
 
 
 def update_lms(path_location="Downloads/") -> bool:
-    user = os.getlogin()
+    user = getpass.getuser()
     path = os.path.join("/home", user, path_location)
     downloaded_file = os.path.exists(os.path.join(path, "wtc-lms"))
     installed_file = os.path.exists(os.path.join("/usr/bin", "wtc-lms"))
